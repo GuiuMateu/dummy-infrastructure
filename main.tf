@@ -6,10 +6,10 @@ module "dummy" {
   var2 = 1999
 }
 
-output "example_id" {
-  value = module.example.id
+output "dummy_id" {
+  value = module.dummy.id
 }
 
-output "example_name" {
-  value = module.example.name
+output "dummy_name" {
+  value = module.dummy.name
 }
